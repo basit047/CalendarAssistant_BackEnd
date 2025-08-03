@@ -453,7 +453,7 @@ namespace CalendarAssistant.Services
             }
             });
 
-            var token = await flow.ExchangeCodeForTokenAsync("", code, "http://localhost:5173", CancellationToken.None);
+            var token = await flow.ExchangeCodeForTokenAsync("", code, "https://calendar-assistant-front-end-q85t.vercel.app/", CancellationToken.None);
             return token;
         }
 
