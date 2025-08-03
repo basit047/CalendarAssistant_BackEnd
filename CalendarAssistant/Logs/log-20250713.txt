@@ -1,0 +1,168 @@
+2025-07-13T13:16:50.8059747+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-07-13T13:16:50.8237815+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-07-13T13:16:50.9604789+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-07-13T13:16:50.9789365+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-07-13T13:16:51.2222361+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-07-13T13:16:51.2343121+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-07-13T13:16:51.2619522+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-07-13T13:16:53.4767375+02:00  [INF] Server desktop-af98uvh:14916:d420081f successfully announced in 2218.0991 ms (3b5ca34b)
+2025-07-13T13:16:53.7601010+02:00  [INF] Server desktop-af98uvh:14916:d420081f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-07-13T13:16:55.7039549+02:00  [INF] Server desktop-af98uvh:14916:d420081f all the dispatchers started (3b5ca34b)
+2025-07-13T13:21:42.4578739+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-07-13T13:21:42.4729977+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-07-13T13:21:42.5527512+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-07-13T13:21:42.5586963+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-07-13T13:21:42.6368866+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-07-13T13:21:42.6423326+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-07-13T13:21:42.6757079+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-07-13T13:21:45.0903293+02:00  [INF] Server desktop-af98uvh:10260:51c67644 successfully announced in 2426.2715 ms (3b5ca34b)
+2025-07-13T13:21:45.1317447+02:00  [INF] Server desktop-af98uvh:10260:51c67644 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-07-13T13:21:45.9316619+02:00  [INF] Server desktop-af98uvh:10260:51c67644 all the dispatchers started (3b5ca34b)
+2025-07-13T13:25:44.8704425+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-07-13T13:25:44.8844122+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-07-13T13:25:45.0694413+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-07-13T13:25:45.0742113+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-07-13T13:25:45.1705451+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-07-13T13:25:45.1862129+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-07-13T13:25:45.2009410+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-07-13T13:25:45.5528427+02:00  [INF] Server desktop-af98uvh:14860:f6ef4f75 successfully announced in 333.4466 ms (3b5ca34b)
+2025-07-13T13:25:45.5761183+02:00  [INF] Server desktop-af98uvh:14860:f6ef4f75 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-07-13T13:25:46.6924137+02:00  [INF] Server desktop-af98uvh:14860:f6ef4f75 all the dispatchers started (3b5ca34b)
+2025-07-13T13:48:18.4952069+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-07-13T13:48:18.5041983+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-07-13T13:48:18.5781632+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-07-13T13:48:18.5896019+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-07-13T13:48:19.0823117+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-07-13T13:48:19.0889962+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-07-13T13:48:19.0925915+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-07-13T13:48:20.5225732+02:00  [INF] Server desktop-af98uvh:17488:76148c0f successfully announced in 1464.5086 ms (3b5ca34b)
+2025-07-13T13:48:20.5404784+02:00  [INF] Server desktop-af98uvh:17488:76148c0f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-07-13T13:48:21.3063396+02:00  [INF] Server desktop-af98uvh:17488:76148c0f all the dispatchers started (3b5ca34b)
+2025-07-13T13:51:40.6080872+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-07-13T13:51:40.6288957+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-07-13T13:51:40.6848608+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-07-13T13:51:40.6972201+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-07-13T13:51:40.8778471+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-07-13T13:51:41.0320723+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-07-13T13:51:41.0726002+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-07-13T13:51:41.3394367+02:00  [INF] Server desktop-af98uvh:17456:a0da46b0 successfully announced in 464.5494 ms (3b5ca34b)
+2025-07-13T13:51:41.3556340+02:00  [INF] Server desktop-af98uvh:17456:a0da46b0 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-07-13T13:51:41.7579747+02:00  [INF] Server desktop-af98uvh:17456:a0da46b0 all the dispatchers started (3b5ca34b)
+2025-07-13T13:56:35.4486937+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-07-13T13:56:35.4592221+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-07-13T13:56:35.5147674+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-07-13T13:56:35.5475885+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-07-13T13:56:35.7253581+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-07-13T13:56:35.7352755+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-07-13T13:56:35.7424260+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-07-13T13:56:37.3263707+02:00  [INF] Server desktop-af98uvh:15920:534383b0 successfully announced in 1592.7836 ms (3b5ca34b)
+2025-07-13T13:56:37.5947819+02:00  [INF] Server desktop-af98uvh:15920:534383b0 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-07-13T13:56:38.8864570+02:00  [INF] Server desktop-af98uvh:15920:534383b0 all the dispatchers started (3b5ca34b)
+2025-07-13T14:04:08.5951026+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-07-13T14:04:08.6028628+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-07-13T14:04:08.6447817+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-07-13T14:04:08.6490149+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-07-13T14:04:08.8955077+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-07-13T14:04:08.9032957+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-07-13T14:04:08.9058569+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-07-13T14:04:09.8759454+02:00  [INF] Server desktop-af98uvh:15584:ebc97519 successfully announced in 424.5833 ms (3b5ca34b)
+2025-07-13T14:04:10.3081579+02:00  [INF] Server desktop-af98uvh:15584:ebc97519 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-07-13T14:04:12.7523896+02:00  [INF] Server desktop-af98uvh:15584:ebc97519 all the dispatchers started (3b5ca34b)
+2025-07-13T14:14:30.4274199+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-07-13T14:14:30.4582139+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-07-13T14:14:30.5651749+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-07-13T14:14:30.7030802+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-07-13T14:14:31.0947413+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-07-13T14:14:31.1004421+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-07-13T14:14:31.1037823+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-07-13T14:14:31.4980326+02:00  [INF] Server desktop-af98uvh:8756:9d1b3f57 successfully announced in 381.6521 ms (3b5ca34b)
+2025-07-13T14:14:31.5697735+02:00  [INF] Server desktop-af98uvh:8756:9d1b3f57 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-07-13T14:14:31.9495427+02:00  [INF] Server desktop-af98uvh:8756:9d1b3f57 all the dispatchers started (3b5ca34b)
+2025-07-13T14:27:53.3910143+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-07-13T14:27:53.5537147+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-07-13T14:27:54.4739377+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-07-13T14:27:54.5117835+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-07-13T14:27:54.9314203+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-07-13T14:27:54.9705869+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-07-13T14:27:54.9750278+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-07-13T14:27:55.8269007+02:00  [INF] Server desktop-af98uvh:7688:41a5b519 successfully announced in 872.0292 ms (3b5ca34b)
+2025-07-13T14:27:55.8504220+02:00  [INF] Server desktop-af98uvh:7688:41a5b519 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-07-13T14:27:56.9434215+02:00  [INF] Server desktop-af98uvh:7688:41a5b519 all the dispatchers started (3b5ca34b)
+2025-07-13T14:29:50.8061156+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-07-13T14:29:50.8153857+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-07-13T14:29:50.8867978+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-07-13T14:29:50.8921242+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-07-13T14:29:51.8956555+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-07-13T14:29:51.8997019+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-07-13T14:29:51.9338237+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-07-13T14:29:53.1992313+02:00  [INF] Server desktop-af98uvh:12360:166cd142 successfully announced in 1020.8495 ms (3b5ca34b)
+2025-07-13T14:29:53.2148690+02:00  [INF] Server desktop-af98uvh:12360:166cd142 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-07-13T14:29:53.5973886+02:00  [INF] Server desktop-af98uvh:12360:166cd142 all the dispatchers started (3b5ca34b)
+2025-07-13T14:40:20.8805283+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-07-13T14:40:20.8970796+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-07-13T14:40:21.6222703+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-07-13T14:40:21.6357819+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-07-13T14:40:22.2304459+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-07-13T14:40:22.2580329+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-07-13T14:40:22.2694376+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-07-13T14:40:24.0054696+02:00  [INF] Server desktop-af98uvh:15868:0c532131 successfully announced in 1621.5379 ms (3b5ca34b)
+2025-07-13T14:40:24.1147213+02:00  [INF] Server desktop-af98uvh:15868:0c532131 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-07-13T14:40:25.7958579+02:00  [INF] Server desktop-af98uvh:15868:0c532131 all the dispatchers started (3b5ca34b)
+2025-07-13T15:17:20.1435863+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-07-13T15:17:20.1546585+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-07-13T15:17:20.2218046+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-07-13T15:17:20.2479053+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-07-13T15:17:20.8356123+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-07-13T15:17:20.9073553+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-07-13T15:17:20.9472157+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-07-13T15:17:21.2878114+02:00  [INF] Server desktop-af98uvh:17612:f5b35054 successfully announced in 424.3315 ms (3b5ca34b)
+2025-07-13T15:17:21.4441952+02:00  [INF] Server desktop-af98uvh:17612:f5b35054 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-07-13T15:17:21.9656250+02:00  [INF] Server desktop-af98uvh:17612:f5b35054 all the dispatchers started (3b5ca34b)

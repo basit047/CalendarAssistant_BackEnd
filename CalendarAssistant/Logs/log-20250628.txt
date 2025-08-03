@@ -1,0 +1,78 @@
+2025-06-28T17:51:29.8871893+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-28T17:51:29.8961484+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-28T17:51:29.9545511+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-28T17:51:29.9631442+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-28T17:51:30.0729232+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-28T17:51:30.0776787+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-28T17:51:30.0886120+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-28T17:51:31.1279908+02:00  [INF] Server desktop-af98uvh:12596:89a1adcd successfully announced in 1020.2839 ms (3b5ca34b)
+2025-06-28T17:51:31.1596967+02:00  [INF] Server desktop-af98uvh:12596:89a1adcd is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-28T17:51:33.2979757+02:00  [INF] Server desktop-af98uvh:12596:89a1adcd all the dispatchers started (3b5ca34b)
+2025-06-28T18:14:01.5104010+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-28T18:14:01.5210544+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-28T18:14:01.5802994+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-28T18:14:01.5862084+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-28T18:14:02.9986008+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-28T18:14:03.0980978+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-28T18:14:03.1043268+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-28T18:14:03.5771317+02:00  [INF] Server desktop-af98uvh:15724:36e398bb successfully announced in 582.0752 ms (3b5ca34b)
+2025-06-28T18:14:03.6183145+02:00  [INF] Server desktop-af98uvh:15724:36e398bb is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-28T18:14:04.4882277+02:00  [INF] Server desktop-af98uvh:15724:36e398bb all the dispatchers started (3b5ca34b)
+2025-06-28T18:15:21.6445197+02:00 0HNDMBR5Q6I8R:00000019 [INF] Executed DbCommand ("169"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-28T18:15:21.6445778+02:00 0HNDMBR5Q6I8R:0000001B [INF] Executed DbCommand ("162"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-28T18:15:21.6445664+02:00 0HNDMBR5Q6I8R:00000011 [INF] Executed DbCommand ("148"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-28T18:15:21.6445836+02:00 0HNDMBR5Q6I8R:00000013 [INF] Executed DbCommand ("108"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-28T18:17:26.7416388+02:00 0HNDMBR5Q6I8S:0000000D [INF] Executed DbCommand ("146"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-28T18:17:26.7416369+02:00 0HNDMBR5Q6I8S:00000011 [INF] Executed DbCommand ("66"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-28T18:17:28.0394077+02:00 0HNDMBR5Q6I8S:00000013 [INF] Executed DbCommand ("27"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-28T18:17:58.6920750+02:00 0HNDMBR5Q6I8S:00000017 [INF] Executed DbCommand ("141"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-28T18:18:43.7005440+02:00 0HNDMBR5Q6I8S:00000017 [INF] Executed DbCommand ("11"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-28T18:18:50.5387076+02:00 0HNDMBR5Q6I8S:0000000D [INF] Executed DbCommand ("13"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)

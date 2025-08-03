@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1,
+    "SyncDateTime": "2025-07-13T13:16:01.408466Z",
+    "Email": "basit.a.raja@gmail.com",
+    "CreatedAt": "2025-05-03T13:46:43.28",
+    "ModifiedAt": null,
+    "StartTime": "08:30:00",
+    "EndTime": "16:30:00"
+  },
+  {
+    "Id": 2,
+    "SyncDateTime": "2025-06-29T04:17:45.4784717Z",
+    "Email": "harris.basit@gmail.com",
+    "CreatedAt": "2025-05-03T13:46:43.28",
+    "ModifiedAt": null,
+    "StartTime": "08:30:00",
+    "EndTime": "17:30:00"
+  }
+]

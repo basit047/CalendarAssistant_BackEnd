@@ -1,0 +1,950 @@
+2025-06-27T17:04:30.5152875+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T17:04:30.5237729+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T17:04:30.5656021+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T17:04:30.6152412+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T17:04:31.0827806+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T17:04:31.0975375+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T17:04:31.1112397+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T17:04:35.7075562+02:00  [INF] Server desktop-af98uvh:21304:2c50a124 successfully announced in 3908.3255 ms (3b5ca34b)
+2025-06-27T17:04:35.7429478+02:00  [INF] Server desktop-af98uvh:21304:2c50a124 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T17:04:36.4302684+02:00  [INF] Server desktop-af98uvh:21304:2c50a124 all the dispatchers started (3b5ca34b)
+2025-06-27T17:05:11.5211482+02:00 0HNDLHFLJGPTK:0000000F [INF] Executed DbCommand ("294"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:05:11.6839824+02:00 0HNDLHFLJGPTK:00000015 [INF] Executed DbCommand ("7"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:05:25.7544723+02:00 0HNDLHFLJGPTK:0000000D [INF] Executed DbCommand ("30"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:09:49.2769744+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T17:09:49.2897163+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T17:09:49.4196029+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T17:09:49.5159116+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T17:09:50.4764088+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T17:09:50.4937251+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T17:09:50.5851785+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T17:09:53.0422944+02:00  [INF] Server desktop-af98uvh:12780:0dc4ec9f successfully announced in 2276.1227 ms (3b5ca34b)
+2025-06-27T17:09:53.1283402+02:00  [INF] Server desktop-af98uvh:12780:0dc4ec9f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T17:09:55.2752630+02:00  [INF] Server desktop-af98uvh:12780:0dc4ec9f all the dispatchers started (3b5ca34b)
+2025-06-27T17:10:19.2488305+02:00 0HNDLHIKJJJ6A:0000000F [INF] Executed DbCommand ("145"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:10:19.2488871+02:00 0HNDLHIKJJJ6A:00000013 [INF] Executed DbCommand ("171"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:10:19.2488804+02:00 0HNDLHIKJJJ6A:0000000D [INF] Executed DbCommand ("155"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:10:19.5626350+02:00 0HNDLHIKJJJ6A:00000019 [INF] Executed DbCommand ("52"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:10:40.6325725+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T17:10:40.6848558+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T17:10:40.8732426+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T17:10:40.9502957+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T17:10:41.4539933+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T17:10:41.4598962+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T17:10:42.0164721+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T17:10:45.2858539+02:00  [INF] Server desktop-af98uvh:10252:846b9e43 successfully announced in 3958.5485 ms (3b5ca34b)
+2025-06-27T17:10:45.4656047+02:00  [INF] Server desktop-af98uvh:10252:846b9e43 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T17:10:47.3477795+02:00  [INF] Server desktop-af98uvh:10252:846b9e43 all the dispatchers started (3b5ca34b)
+2025-06-27T17:11:10.2511775+02:00 0HNDLHJ3UA67A:00000009 [INF] Executed DbCommand ("98"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:11:10.2512180+02:00 0HNDLHJ3UA67A:0000000D [INF] Executed DbCommand ("29"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:11:10.5257624+02:00 0HNDLHJ3UA67A:00000011 [INF] Executed DbCommand ("14"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:12:43.0234586+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T17:12:43.0338667+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T17:12:43.0941517+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T17:12:43.1580551+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T17:12:43.3315748+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T17:12:43.3350141+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T17:12:43.3382472+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T17:12:44.1846771+02:00  [INF] Server desktop-af98uvh:13948:aa879012 successfully announced in 841.5508 ms (3b5ca34b)
+2025-06-27T17:12:44.3056603+02:00  [INF] Server desktop-af98uvh:13948:aa879012 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T17:12:48.4743771+02:00  [INF] Server desktop-af98uvh:13948:aa879012 all the dispatchers started (3b5ca34b)
+2025-06-27T17:12:54.8033610+02:00 0HNDLHK8D5GFM:0000000D [INF] Executed DbCommand ("209"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:12:54.8033609+02:00 0HNDLHK8D5GFM:00000009 [INF] Executed DbCommand ("209"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:12:55.0789636+02:00 0HNDLHK8D5GFM:00000011 [INF] Executed DbCommand ("13"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:16:14.8901380+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T17:16:14.8997295+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T17:16:14.9481613+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T17:16:14.9517931+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T17:16:15.0179607+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T17:16:15.0221669+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T17:16:15.0248352+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T17:16:15.3590057+02:00  [INF] Server desktop-af98uvh:18240:8b225fc9 successfully announced in 287.1984 ms (3b5ca34b)
+2025-06-27T17:16:15.4233932+02:00  [INF] Server desktop-af98uvh:18240:8b225fc9 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T17:16:20.2097317+02:00  [INF] Server desktop-af98uvh:18240:8b225fc9 all the dispatchers started (3b5ca34b)
+2025-06-27T17:16:43.7224013+02:00 0HNDLHM7HNVMB:00000009 [INF] Executed DbCommand ("68"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:16:43.7224005+02:00 0HNDLHM7HNVMB:0000000B [INF] Executed DbCommand ("68"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:16:43.8982600+02:00 0HNDLHM7HNVMB:00000013 [INF] Executed DbCommand ("3"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:20:44.4828526+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T17:20:44.4918216+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T17:20:44.7688960+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T17:20:44.8448325+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T17:20:46.3993714+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T17:20:46.4742526+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T17:20:46.5277674+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T17:20:49.4787469+02:00  [INF] Server desktop-af98uvh:17908:f8176433 successfully announced in 2368.2854 ms (3b5ca34b)
+2025-06-27T17:20:49.5416627+02:00  [INF] Server desktop-af98uvh:17908:f8176433 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T17:20:54.5870205+02:00  [INF] Server desktop-af98uvh:17908:f8176433 all the dispatchers started (3b5ca34b)
+2025-06-27T17:21:15.0448443+02:00 0HNDLHONPD5S5:00000009 [INF] Executed DbCommand ("137"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:21:15.0448769+02:00 0HNDLHONPD5S5:0000000D [INF] Executed DbCommand ("201"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:21:15.3432530+02:00 0HNDLHONPD5S5:00000013 [INF] Executed DbCommand ("6"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:43:39.4581783+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T17:43:39.4670283+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T17:43:39.5620530+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T17:43:39.5653942+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T17:43:39.6420287+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T17:43:39.6460806+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T17:43:39.6490519+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T17:43:39.8909118+02:00  [INF] Server desktop-af98uvh:1544:029de156 successfully announced in 247.9763 ms (3b5ca34b)
+2025-06-27T17:43:39.9024087+02:00  [INF] Server desktop-af98uvh:1544:029de156 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T17:43:40.1523542+02:00  [INF] Server desktop-af98uvh:1544:029de156 all the dispatchers started (3b5ca34b)
+2025-06-27T17:44:14.1868882+02:00 0HNDLI5HI34B5:00000009 [INF] Executed DbCommand ("1,912"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:44:14.1868882+02:00 0HNDLI5HI34B5:0000000B [INF] Executed DbCommand ("2,111"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:44:14.9647756+02:00 0HNDLI5HI34B5:00000013 [INF] Executed DbCommand ("15"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:47:15.4083379+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T17:47:15.4643359+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T17:47:15.6924163+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T17:47:15.7191594+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T17:47:16.7113904+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T17:47:16.7397328+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T17:47:16.8084591+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T17:47:21.3343838+02:00  [INF] Server desktop-af98uvh:20060:60006f87 successfully announced in 4445.7291 ms (3b5ca34b)
+2025-06-27T17:47:21.5125214+02:00  [INF] Server desktop-af98uvh:20060:60006f87 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T17:47:23.6641212+02:00  [INF] Server desktop-af98uvh:20060:60006f87 all the dispatchers started (3b5ca34b)
+2025-06-27T17:47:33.9073461+02:00 0HNDLI7I1KQ83:00000009 [INF] Executed DbCommand ("406"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:47:33.9073559+02:00 0HNDLI7I1KQ83:0000000D [INF] Executed DbCommand ("522"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:47:34.3908809+02:00 0HNDLI7I1KQ83:00000013 [INF] Executed DbCommand ("35"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T17:50:54.5448666+02:00 0HNDLI7I1KQ89:00000005 [INF] Executed DbCommand ("3,276"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T18:00:49.3638114+02:00 0HNDLI7I1KQ83:0000000D [INF] Executed DbCommand ("511"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T18:01:23.1897340+02:00 0HNDLI7I1KQ89:00000005 [INF] Executed DbCommand ("1,574"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T18:09:30.5704829+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T18:09:30.6130429+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T18:09:30.9423747+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T18:09:31.3694356+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T18:09:32.6177155+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T18:09:32.6554274+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T18:09:32.7785519+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T18:09:33.4626381+02:00  [INF] Server desktop-af98uvh:9168:826e503c successfully announced in 803.6079 ms (3b5ca34b)
+2025-06-27T18:09:33.7134857+02:00  [INF] Server desktop-af98uvh:9168:826e503c is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T18:09:35.1115584+02:00  [INF] Server desktop-af98uvh:9168:826e503c all the dispatchers started (3b5ca34b)
+2025-06-27T18:10:52.8884784+02:00 0HNDLIJVR614A:0000000D [INF] Executed DbCommand ("262"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T18:10:52.8884785+02:00 0HNDLIJVR614G:00000001 [INF] Executed DbCommand ("260"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T18:37:46.2974599+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T18:37:46.3120094+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T18:37:46.4188468+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T18:37:46.4870469+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T18:37:47.6436766+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T18:37:47.6489076+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T18:37:47.6610673+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T18:37:48.0698699+02:00  [INF] Server desktop-af98uvh:2912:61eaaebf successfully announced in 486.2872 ms (3b5ca34b)
+2025-06-27T18:37:48.2706694+02:00  [INF] Server desktop-af98uvh:2912:61eaaebf is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T18:37:48.7146596+02:00  [INF] Server desktop-af98uvh:2912:61eaaebf all the dispatchers started (3b5ca34b)
+2025-06-27T18:38:38.2320849+02:00 0HNDLJ3P89CK9:0000000D [INF] Executed DbCommand ("108"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T18:38:38.2320466+02:00 0HNDLJ3P89CK9:00000011 [INF] Executed DbCommand ("47"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T18:39:04.9440033+02:00 0HNDLJ3P89CK9:00000017 [INF] Executed DbCommand ("20"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T18:39:05.2830069+02:00 0HNDLJ3P89CK9:00000015 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.ActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CalendarAssistant.Middlewares.UserMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\Middlewares\UserMiddleware.cs:line 33
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-27T19:29:16.4999389+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T19:29:16.5089973+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T19:29:16.5558618+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T19:29:16.5592129+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T19:29:16.8171465+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T19:29:16.8359215+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T19:29:17.4420322+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T19:29:18.5206276+02:00  [INF] Server desktop-af98uvh:4188:1f5efb05 successfully announced in 1685.6266 ms (3b5ca34b)
+2025-06-27T19:29:18.5434291+02:00  [INF] Server desktop-af98uvh:4188:1f5efb05 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T19:29:19.1903285+02:00  [INF] Server desktop-af98uvh:4188:1f5efb05 all the dispatchers started (3b5ca34b)
+2025-06-27T21:18:44.5642446+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T21:18:44.5999867+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T21:18:45.0690862+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T21:18:45.2059831+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T21:18:45.4235209+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T21:18:45.4788774+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T21:18:45.5931238+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T21:18:46.3127236+02:00  [INF] Server desktop-af98uvh:14488:55478839 successfully announced in 872.3934 ms (3b5ca34b)
+2025-06-27T21:18:46.4892021+02:00  [INF] Server desktop-af98uvh:14488:55478839 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T21:18:47.0186067+02:00  [INF] Server desktop-af98uvh:14488:55478839 all the dispatchers started (3b5ca34b)
+2025-06-27T21:18:50.1372321+02:00 0HNDLLTNE7E39:00000007 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - CalendarAssistant.Controllers.CalendarController.ExchangeCodeForToken (CalendarAssistant). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-27T21:19:42.0429912+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T21:19:42.0675913+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T21:19:42.7898624+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T21:19:42.8318215+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T21:19:43.6337622+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T21:19:43.7237181+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T21:19:43.7283581+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T21:19:44.6887395+02:00  [INF] Server desktop-af98uvh:15792:cadb43e5 successfully announced in 1046.1804 ms (3b5ca34b)
+2025-06-27T21:19:44.7583541+02:00  [INF] Server desktop-af98uvh:15792:cadb43e5 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T21:19:45.9569816+02:00  [INF] Server desktop-af98uvh:15792:cadb43e5 all the dispatchers started (3b5ca34b)
+2025-06-27T21:21:43.1370702+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T21:21:43.1478218+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T21:21:43.2016146+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T21:21:43.2052750+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T21:21:43.2769940+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T21:21:43.3596505+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T21:21:43.3799662+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T21:21:44.6238559+02:00  [INF] Server desktop-af98uvh:3048:7eed1d7d successfully announced in 1333.9186 ms (3b5ca34b)
+2025-06-27T21:21:44.7012687+02:00  [INF] Server desktop-af98uvh:3048:7eed1d7d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T21:21:45.3236267+02:00  [INF] Server desktop-af98uvh:3048:7eed1d7d all the dispatchers started (3b5ca34b)
+2025-06-27T21:44:45.5718270+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T21:44:45.5817852+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T21:44:45.6444670+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T21:44:45.6507320+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T21:44:45.8312486+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T21:44:45.8387241+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T21:44:45.8666759+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T21:44:47.2290248+02:00  [INF] Server desktop-af98uvh:16308:2f664a22 successfully announced in 1392.5863 ms (3b5ca34b)
+2025-06-27T21:44:47.3764443+02:00  [INF] Server desktop-af98uvh:16308:2f664a22 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T21:44:48.1909247+02:00  [INF] Server desktop-af98uvh:16308:2f664a22 all the dispatchers started (3b5ca34b)
+2025-06-27T21:58:28.2530681+02:00 0HNDLMC8SRJCB:00000011 [INF] Executed DbCommand ("168"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T21:58:28.2530612+02:00 0HNDLMC8SRJCB:0000000D [INF] Executed DbCommand ("167"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T21:58:28.4029547+02:00 0HNDLMC8SRJCB:00000019 [INF] Executed DbCommand ("2"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T21:58:41.8762709+02:00 0HNDLMC8SRJCB:0000001D [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T22:02:25.6903348+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T22:02:25.7005066+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T22:02:25.8575098+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T22:02:26.4937105+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T22:02:26.7794515+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T22:02:26.7853345+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T22:02:26.7904217+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T22:02:27.9572168+02:00  [INF] Server desktop-af98uvh:19204:fc2ab265 successfully announced in 1163.0036 ms (3b5ca34b)
+2025-06-27T22:02:27.9827131+02:00  [INF] Server desktop-af98uvh:19204:fc2ab265 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T22:02:28.9176385+02:00  [INF] Server desktop-af98uvh:19204:fc2ab265 all the dispatchers started (3b5ca34b)
+2025-06-27T22:03:35.5625036+02:00 0HNDLMM4O4IGT:00000009 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: No service for type 'CalendarAssistant.ActionFilters.TokenValidationFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at CalendarAssistant.Middlewares.UserMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\Middlewares\UserMiddleware.cs:line 33
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-27T22:03:40.3769672+02:00 0HNDLMM4O4IGT:0000000B [INF] Executed DbCommand ("58"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T22:04:05.8751409+02:00 0HNDLMM4O4IGT:0000001D [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: No service for type 'CalendarAssistant.ActionFilters.TokenValidationFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at CalendarAssistant.Middlewares.UserMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\Middlewares\UserMiddleware.cs:line 33
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-27T22:04:05.9971020+02:00 0HNDLMM4O4IGT:0000001F [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: No service for type 'CalendarAssistant.ActionFilters.TokenValidationFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at CalendarAssistant.Middlewares.UserMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\Middlewares\UserMiddleware.cs:line 33
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-27T22:04:06.0228289+02:00 0HNDLMM4O4IGT:0000001B [INF] Executed DbCommand ("98"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T22:04:06.1908204+02:00 0HNDLMM4O4IGT:00000023 [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T22:04:43.8688171+02:00 0HNDLMM4O4IGV:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: No service for type 'CalendarAssistant.ActionFilters.TokenValidationFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at CalendarAssistant.Middlewares.UserMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\Middlewares\UserMiddleware.cs:line 33
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-27T22:13:41.4669496+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T22:13:41.4781575+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T22:13:41.5261466+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T22:13:41.5291293+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T22:13:41.5960694+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T22:13:41.6039068+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T22:13:41.6069093+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T22:13:41.9093391+02:00  [INF] Server desktop-af98uvh:15308:26423aad successfully announced in 304.5037 ms (3b5ca34b)
+2025-06-27T22:13:41.9918456+02:00  [INF] Server desktop-af98uvh:15308:26423aad is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T22:13:44.1984028+02:00  [INF] Server desktop-af98uvh:15308:26423aad all the dispatchers started (3b5ca34b)
+2025-06-27T22:14:14.0000614+02:00 0HNDLMSE8SKHM:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentNullException: Value cannot be null. (Parameter 'signedToken')
+   at Google.Apis.Util.Utilities.ThrowIfNull[T](T obj, String paramName)
+   at Google.Apis.Auth.SignedToken`2.FromSignedToken(String signedToken)
+   at Google.Apis.Auth.GoogleJsonWebSignature.ValidateInternalAsync(String jwt, ValidationSettings validationSettings)
+   at CalendarAssistant.ActionFilters.TokenValidationFilter.ValidateIdToken(String idToken) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\ActionFilters\TokenValidationFilter .cs:line 37
+   at CalendarAssistant.ActionFilters.TokenValidationFilter.OnActionExecuting(ActionExecutingContext context) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\ActionFilters\TokenValidationFilter .cs:line 23
+   at Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CalendarAssistant.Middlewares.UserMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\Middlewares\UserMiddleware.cs:line 33
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-27T22:15:57.4265580+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T22:15:57.8727228+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T22:15:58.2697468+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T22:15:58.2737677+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T22:15:58.7469731+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T22:15:58.7574140+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T22:15:58.7628873+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T22:15:59.0608109+02:00  [INF] Server desktop-af98uvh:5972:0cfbf0b2 successfully announced in 695.5435 ms (3b5ca34b)
+2025-06-27T22:15:59.0867347+02:00  [INF] Server desktop-af98uvh:5972:0cfbf0b2 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T22:15:59.7363598+02:00  [INF] Server desktop-af98uvh:5972:0cfbf0b2 all the dispatchers started (3b5ca34b)
+2025-06-27T22:16:55.4647101+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T22:16:55.4750477+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T22:16:55.5208246+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T22:16:55.5240208+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T22:16:55.6047348+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T22:16:55.6178792+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T22:16:55.6356820+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T22:16:55.9680544+02:00  [INF] Server desktop-af98uvh:10144:4cd0de17 successfully announced in 383.5022 ms (3b5ca34b)
+2025-06-27T22:16:56.0184152+02:00  [INF] Server desktop-af98uvh:10144:4cd0de17 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T22:16:57.5812818+02:00  [INF] Server desktop-af98uvh:10144:4cd0de17 all the dispatchers started (3b5ca34b)
+2025-06-27T22:29:28.1636386+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T22:29:28.1750234+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T22:29:28.3587661+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T22:29:28.3681342+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T22:29:29.5453776+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T22:29:29.5939749+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T22:29:29.6321551+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T22:29:30.0801572+02:00  [INF] Server desktop-af98uvh:19724:c9feb2ed successfully announced in 529.1659 ms (3b5ca34b)
+2025-06-27T22:29:30.2361876+02:00  [INF] Server desktop-af98uvh:19724:c9feb2ed is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T22:29:30.8081797+02:00  [INF] Server desktop-af98uvh:19724:c9feb2ed all the dispatchers started (3b5ca34b)
+2025-06-27T22:34:04.3126461+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T22:34:04.3242528+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T22:34:04.3962216+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T22:34:04.4013103+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T22:34:04.4676647+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T22:34:04.4725516+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T22:34:04.4771423+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T22:34:06.3300454+02:00  [INF] Server desktop-af98uvh:20656:0826f813 successfully announced in 1695.2202 ms (3b5ca34b)
+2025-06-27T22:34:06.5357898+02:00  [INF] Server desktop-af98uvh:20656:0826f813 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T22:34:07.8253316+02:00  [INF] Server desktop-af98uvh:20656:0826f813 all the dispatchers started (3b5ca34b)
+2025-06-27T22:36:00.3339346+02:00 0HNDLN7QKS8IO:00000015 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Google.Apis.Auth.InvalidJwtException: JWT must consist of Header, Payload, and Signature
+   at Google.Apis.Auth.SignedToken`2.FromSignedToken(String signedToken)
+   at Google.Apis.Auth.GoogleJsonWebSignature.ValidateInternalAsync(String jwt, ValidationSettings validationSettings)
+   at CalendarAssistant.ActionFilters.TokenValidationFilter.ValidateIdToken(String idToken) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\ActionFilters\TokenValidationFilter .cs:line 41
+   at CalendarAssistant.ActionFilters.TokenValidationFilter.OnActionExecuting(ActionExecutingContext context) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\ActionFilters\TokenValidationFilter .cs:line 25
+   at Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CalendarAssistant.Middlewares.UserMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\Middlewares\UserMiddleware.cs:line 33
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-27T22:36:03.1250158+02:00 0HNDLN7QKS8IO:0000000F [INF] Executed DbCommand ("98"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T22:36:03.2225949+02:00 0HNDLN7QKS8IO:0000001D [INF] Executed DbCommand ("3"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T22:36:43.0718680+02:00 0HNDLN7QKS8IO:0000002B [INF] Executed DbCommand ("5,395"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T22:36:52.2185689+02:00 0HNDLN7QKS8IO:00000035 [INF] Executed DbCommand ("4"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T22:37:22.9836690+02:00 0HNDLN7QKS8IO:00000031 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Google.Apis.Auth.InvalidJwtException: JWT must consist of Header, Payload, and Signature
+   at Google.Apis.Auth.SignedToken`2.FromSignedToken(String signedToken)
+   at Google.Apis.Auth.GoogleJsonWebSignature.ValidateInternalAsync(String jwt, ValidationSettings validationSettings)
+   at CalendarAssistant.ActionFilters.TokenValidationFilter.ValidateIdToken(String idToken) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\ActionFilters\TokenValidationFilter .cs:line 41
+   at CalendarAssistant.ActionFilters.TokenValidationFilter.OnActionExecuting(ActionExecutingContext context) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\ActionFilters\TokenValidationFilter .cs:line 25
+   at Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CalendarAssistant.Middlewares.UserMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\Middlewares\UserMiddleware.cs:line 33
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-27T22:37:22.9838258+02:00 0HNDLN7QKS8IO:0000002F [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Google.Apis.Auth.InvalidJwtException: JWT must consist of Header, Payload, and Signature
+   at Google.Apis.Auth.SignedToken`2.FromSignedToken(String signedToken)
+   at Google.Apis.Auth.GoogleJsonWebSignature.ValidateInternalAsync(String jwt, ValidationSettings validationSettings)
+   at CalendarAssistant.ActionFilters.TokenValidationFilter.ValidateIdToken(String idToken) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\ActionFilters\TokenValidationFilter .cs:line 41
+   at CalendarAssistant.ActionFilters.TokenValidationFilter.OnActionExecuting(ActionExecutingContext context) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\ActionFilters\TokenValidationFilter .cs:line 25
+   at Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CalendarAssistant.Middlewares.UserMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\Middlewares\UserMiddleware.cs:line 33
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-27T22:39:37.3939652+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T22:39:37.4032205+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T22:39:37.4499884+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T22:39:37.4534133+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T22:39:37.5247367+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T22:39:37.5300589+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T22:39:37.5396034+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T22:39:39.2100601+02:00  [INF] Server desktop-af98uvh:8560:38f448f4 successfully announced in 1664.7781 ms (3b5ca34b)
+2025-06-27T22:39:39.3330324+02:00  [INF] Server desktop-af98uvh:8560:38f448f4 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T22:39:40.9467519+02:00  [INF] Server desktop-af98uvh:8560:38f448f4 all the dispatchers started (3b5ca34b)
+2025-06-27T22:41:19.1483944+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T22:41:19.1618350+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T22:41:19.2261231+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T22:41:19.2301448+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T22:41:19.3072518+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T22:41:19.3339239+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T22:41:19.3485571+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T22:41:19.6404710+02:00  [INF] Server desktop-af98uvh:9124:97bcc3f3 successfully announced in 330.5662 ms (3b5ca34b)
+2025-06-27T22:41:19.6554136+02:00  [INF] Server desktop-af98uvh:9124:97bcc3f3 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T22:41:20.2395404+02:00  [INF] Server desktop-af98uvh:9124:97bcc3f3 all the dispatchers started (3b5ca34b)
+2025-06-27T22:42:29.4544593+02:00 0HNDLNBSAG1ID:00000013 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: . Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Google.Apis.Json.NewtonsoftJsonSerializer.Deserialize(String input, Type type)
+   at Google.Apis.Json.NewtonsoftJsonSerializer.Deserialize[T](String input)
+   at Google.Apis.Auth.SignedToken`2.FromSignedToken(String signedToken)
+   at Google.Apis.Auth.GoogleJsonWebSignature.ValidateInternalAsync(String jwt, ValidationSettings validationSettings)
+   at CalendarAssistant.ActionFilters.TokenValidationFilter.ValidateIdToken(String idToken) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\ActionFilters\TokenValidationFilter .cs:line 41
+   at CalendarAssistant.ActionFilters.TokenValidationFilter.OnActionExecuting(ActionExecutingContext context) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\ActionFilters\TokenValidationFilter .cs:line 25
+   at Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CalendarAssistant.Middlewares.UserMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\Middlewares\UserMiddleware.cs:line 33
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-27T22:42:29.4544603+02:00 0HNDLNBSAG1ID:00000015 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: . Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Google.Apis.Json.NewtonsoftJsonSerializer.Deserialize(String input, Type type)
+   at Google.Apis.Json.NewtonsoftJsonSerializer.Deserialize[T](String input)
+   at Google.Apis.Auth.SignedToken`2.FromSignedToken(String signedToken)
+   at Google.Apis.Auth.GoogleJsonWebSignature.ValidateInternalAsync(String jwt, ValidationSettings validationSettings)
+   at CalendarAssistant.ActionFilters.TokenValidationFilter.ValidateIdToken(String idToken) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\ActionFilters\TokenValidationFilter .cs:line 41
+   at CalendarAssistant.ActionFilters.TokenValidationFilter.OnActionExecuting(ActionExecutingContext context) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\ActionFilters\TokenValidationFilter .cs:line 25
+   at Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CalendarAssistant.Middlewares.UserMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\Middlewares\UserMiddleware.cs:line 33
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-27T22:42:31.3289511+02:00 0HNDLNBSAG1ID:0000000F [INF] Executed DbCommand ("67"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T22:42:31.3943746+02:00 0HNDLNBSAG1ID:0000001D [INF] Executed DbCommand ("2"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T22:50:51.9523407+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T22:50:51.9632764+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T22:50:52.0198980+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T22:50:52.0247464+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T22:50:52.2161010+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T22:50:52.2260461+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T22:50:52.2293741+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T22:50:53.3258146+02:00  [INF] Server desktop-af98uvh:20364:fd7b4c09 successfully announced in 1053.0943 ms (3b5ca34b)
+2025-06-27T22:50:53.3599539+02:00  [INF] Server desktop-af98uvh:20364:fd7b4c09 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T22:50:53.7328810+02:00  [INF] Server desktop-af98uvh:20364:fd7b4c09 all the dispatchers started (3b5ca34b)
+2025-06-27T22:51:23.1373382+02:00 0HNDLNH6UR2OU:00000009 [INF] Executed DbCommand ("69"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T22:51:23.2535099+02:00 0HNDLNH6UR2OU:0000000B [INF] Executed DbCommand ("7"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T22:55:36.0806169+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T22:55:36.0937404+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T22:55:36.1818109+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T22:55:36.1869415+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T22:55:36.2837355+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T22:55:36.2904626+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T22:55:36.2956883+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T22:55:37.9453026+02:00  [INF] Server desktop-af98uvh:19012:b4c52ea0 successfully announced in 1512.9494 ms (3b5ca34b)
+2025-06-27T22:55:38.0407554+02:00  [INF] Server desktop-af98uvh:19012:b4c52ea0 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T22:55:39.7216663+02:00  [INF] Server desktop-af98uvh:19012:b4c52ea0 all the dispatchers started (3b5ca34b)
+2025-06-27T22:57:08.0424090+02:00 0HNDLNJRJSK8J:00000013 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.NotImplementedException: The method or operation is not implemented.
+   at CalendarAssistant.ActionFilters.TokenValidationFilter.OnActionExecuted(ActionExecutedContext context) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\ActionFilters\TokenValidationFilter .cs:line 12
+   at Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CalendarAssistant.Middlewares.UserMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\Middlewares\UserMiddleware.cs:line 33
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-27T23:17:19.4226559+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T23:17:19.4327706+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T23:17:19.4807398+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T23:17:19.4846387+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T23:17:21.0124696+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T23:17:21.0237387+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T23:17:21.0275360+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T23:17:21.4783429+02:00  [INF] Server desktop-af98uvh:10632:5e39299a successfully announced in 1725.7778 ms (3b5ca34b)
+2025-06-27T23:17:21.4945126+02:00  [INF] Server desktop-af98uvh:10632:5e39299a is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T23:17:22.6525493+02:00  [INF] Server desktop-af98uvh:10632:5e39299a all the dispatchers started (3b5ca34b)
+2025-06-27T23:18:35.5067313+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T23:18:35.5172005+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T23:18:35.5749395+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T23:18:35.5840396+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T23:18:35.6716127+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T23:18:35.6871153+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T23:18:35.7429447+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T23:18:36.1529806+02:00  [INF] Server desktop-af98uvh:17848:05e8d12d successfully announced in 464.2084 ms (3b5ca34b)
+2025-06-27T23:18:36.1695507+02:00  [INF] Server desktop-af98uvh:17848:05e8d12d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T23:18:37.1551248+02:00  [INF] Server desktop-af98uvh:17848:05e8d12d all the dispatchers started (3b5ca34b)
+2025-06-27T23:20:37.8463752+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T23:20:37.8567885+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T23:20:38.0350521+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T23:20:38.0545974+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T23:20:38.9393131+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T23:20:39.0931977+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T23:20:39.1029166+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T23:20:39.4320150+02:00  [INF] Server desktop-af98uvh:1388:fa456d15 successfully announced in 691.514 ms (3b5ca34b)
+2025-06-27T23:20:39.4559807+02:00  [INF] Server desktop-af98uvh:1388:fa456d15 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T23:20:39.8773584+02:00  [INF] Server desktop-af98uvh:1388:fa456d15 all the dispatchers started (3b5ca34b)
+2025-06-27T23:21:38.7045381+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-27T23:21:38.7135813+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-27T23:21:38.7646583+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-27T23:21:38.7794520+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-27T23:21:39.5989899+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-27T23:21:39.6317665+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-27T23:21:39.6357470+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-27T23:21:39.9623517+02:00  [INF] Server desktop-af98uvh:5396:069bba9f successfully announced in 955.3158 ms (3b5ca34b)
+2025-06-27T23:21:39.9861419+02:00  [INF] Server desktop-af98uvh:5396:069bba9f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-27T23:21:40.8378128+02:00  [INF] Server desktop-af98uvh:5396:069bba9f all the dispatchers started (3b5ca34b)
+2025-06-27T23:23:06.1949781+02:00 0HNDLO2D9QL6N:00000013 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.NotImplementedException: The method or operation is not implemented.
+   at CalendarAssistant.ActionFilters.TokenValidationFilter.OnActionExecuted(ActionExecutedContext context) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\ActionFilters\TokenValidationFilter .cs:line 12
+   at Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CalendarAssistant.Middlewares.UserMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\Middlewares\UserMiddleware.cs:line 33
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-27T23:23:35.2091479+02:00 0HNDLO2D9QL6N:00000011 [INF] Executed DbCommand ("159"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T23:23:35.2091076+02:00 0HNDLO2D9QL6N:0000000F [INF] Executed DbCommand ("161"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-27T23:23:40.6399509+02:00 0HNDLO2D9QL6N:0000001D [INF] Executed DbCommand ("7"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)

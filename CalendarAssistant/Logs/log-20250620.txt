@@ -1,0 +1,119 @@
+2025-06-20T11:43:29.1151728+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-20T11:43:29.1576805+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-20T11:43:29.2837416+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-20T11:43:29.3074211+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-20T11:43:29.5578657+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-20T11:43:29.5807177+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-20T11:43:29.6115526+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-20T11:43:31.3849042+02:00  [INF] Server desktop-af98uvh:6720:b289dad9 successfully announced in 1720.7804 ms (3b5ca34b)
+2025-06-20T11:43:33.5262688+02:00  [INF] Server desktop-af98uvh:6720:b289dad9 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-20T11:43:36.7435755+02:00  [INF] Server desktop-af98uvh:6720:b289dad9 all the dispatchers started (3b5ca34b)
+2025-06-20T11:45:21.7437227+02:00 0HNDFRRKO68L6:00000005 [INF] Executed DbCommand ("820"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2025-06-20T11:45:23.3032325+02:00 0HNDFRRKO68L6:00000005 [INF] Executed DbCommand ("303"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0" (0723d8ff)
+2025-06-20T11:45:24.9209141+02:00 0HNDFRRKO68L6:00000005 [INF] Executed DbCommand ("32"ms) [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ModifiedAt], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TimeZoneId], [a].[TwoFactorEnabled], [a].[UserId], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2025-06-20T11:45:27.0762433+02:00 0HNDFRRKO68L6:0000000D [INF] Executed DbCommand ("553"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-20T11:45:27.7613756+02:00 0HNDFRRKO68L6:00000015 [INF] Executed DbCommand ("190"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-20T11:59:02.2364687+02:00 0HNDFRRKO68L7:00000005 [INF] Executed DbCommand ("30"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2025-06-20T11:59:02.6256750+02:00 0HNDFRRKO68L7:00000005 [INF] Executed DbCommand ("9"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0" (0723d8ff)
+2025-06-20T11:59:02.6898018+02:00 0HNDFRRKO68L7:00000005 [INF] Executed DbCommand ("14"ms) [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ModifiedAt], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TimeZoneId], [a].[TwoFactorEnabled], [a].[UserId], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2025-06-20T11:59:02.9527380+02:00 0HNDFRRKO68L7:0000000D [INF] Executed DbCommand ("9"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-20T11:59:02.9912254+02:00 0HNDFRRKO68L7:00000013 [INF] Executed DbCommand ("4"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-20T12:00:41.8563641+02:00 0HNDFRRKO68L7:0000001D [INF] Executed DbCommand ("20"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                            SELECT dw.Id, dw.Day, wh.StartTime, wh.EndTime, wh.IsWorkingDay, asp.UserId
+                            FROM DayWeek dw
+                            INNER JOIN WorkingHour wh ON dw.Id = wh.DayId
+                            INNER JOIN AspNetUsers asp ON wh.UserId = asp.UserId
+                            WHERE asp.UserId=1" (0723d8ff)
+2025-06-20T12:00:41.8625637+02:00 0HNDFRRKO68L7:0000001F [INF] Executed DbCommand ("61"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                            SELECT dw.Id, dw.Day, wh.StartTime, wh.EndTime, wh.IsWorkingDay, asp.UserId
+                            FROM DayWeek dw
+                            INNER JOIN WorkingHour wh ON dw.Id = wh.DayId
+                            INNER JOIN AspNetUsers asp ON wh.UserId = asp.UserId
+                            WHERE asp.UserId=1" (0723d8ff)
+2025-06-20T12:03:18.6091308+02:00 0HNDFRRKO68L7:00000023 [INF] Executed DbCommand ("47"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[TimeZoneId], [a].[UserName], [a].[CreatedAt], COALESCE([a].[ModifiedAt], [a].[CreatedAt]) AS [ModifiedAt]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserId] = @__userId_0" (0723d8ff)
+2025-06-20T12:03:18.6121263+02:00 0HNDFRRKO68L7:00000027 [INF] Executed DbCommand ("51"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[TimeZoneId], [a].[UserName], [a].[CreatedAt], COALESCE([a].[ModifiedAt], [a].[CreatedAt]) AS [ModifiedAt]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserId] = @__userId_0" (0723d8ff)
+2025-06-20T19:07:00.2484248+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-06-20T19:07:00.3605916+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-06-20T19:07:01.1846696+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-06-20T19:07:01.2999359+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-06-20T19:07:02.8634223+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-06-20T19:07:03.7852049+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-06-20T19:07:05.0839336+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-06-20T19:07:08.1876175+02:00  [INF] Server desktop-af98uvh:17192:09c8154e successfully announced in 2538.1506 ms (3b5ca34b)
+2025-06-20T19:07:08.2311731+02:00  [INF] Server desktop-af98uvh:17192:09c8154e is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-06-20T19:07:10.9221118+02:00  [INF] Server desktop-af98uvh:17192:09c8154e all the dispatchers started (3b5ca34b)
+2025-06-20T19:08:08.4235284+02:00 0HNDG3JFH849C:00000005 [INF] Executed DbCommand ("1,885"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2025-06-20T19:08:10.4918227+02:00 0HNDG3JFH849C:00000005 [INF] Executed DbCommand ("512"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0" (0723d8ff)
+2025-06-20T19:08:12.1265616+02:00 0HNDG3JFH849C:00000005 [INF] Executed DbCommand ("30"ms) [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ModifiedAt], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TimeZoneId], [a].[TwoFactorEnabled], [a].[UserId], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2025-06-20T19:08:14.2821120+02:00 0HNDG3JFH849C:0000000F [INF] Executed DbCommand ("622"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-20T19:08:14.8302422+02:00 0HNDG3JFH849C:00000013 [INF] Executed DbCommand ("52"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)

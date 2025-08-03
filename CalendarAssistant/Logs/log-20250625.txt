@@ -1,0 +1,11 @@
+2025-06-25T11:08:35.0530059+02:00  [INF] 1 servers were removed due to timeout (3b5ca34b)
+2025-06-25T11:56:19.6252402+02:00 0HNDJ99OMRE53:0000000B [INF] Executed DbCommand ("1,291"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-06-25T11:56:20.0109098+02:00 0HNDJ99OMRE53:00000015 [INF] Executed DbCommand ("64"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)

@@ -1,0 +1,63 @@
+2025-07-11T20:58:16.6349061+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-07-11T20:58:16.6679562+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-07-11T20:58:18.4674991+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-07-11T20:58:18.5981674+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-07-11T20:58:19.5746105+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-07-11T20:58:19.5848116+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-07-11T20:58:19.6126460+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-07-11T20:58:33.6880479+02:00  [INF] Server desktop-af98uvh:19100:30fb2c1f successfully announced in 13516.4631 ms (3b5ca34b)
+2025-07-11T20:58:34.3988616+02:00  [INF] Server desktop-af98uvh:19100:30fb2c1f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-07-11T20:58:55.8701821+02:00  [INF] Server desktop-af98uvh:19100:30fb2c1f all the dispatchers started (3b5ca34b)
+2025-07-11T21:02:03.2259701+02:00 0HNE0LJIJDB08:00000045 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.ActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CalendarAssistant.Middlewares.UserMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant\Middlewares\UserMiddleware.cs:line 33
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-11T21:04:34.0869360+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-07-11T21:04:34.2170980+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-07-11T21:04:35.0085705+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-07-11T21:04:38.1465455+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-07-11T21:04:45.6366731+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-07-11T21:04:45.6784643+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-07-11T21:04:45.8816373+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-07-11T21:04:50.4993586+02:00  [INF] Server desktop-af98uvh:23916:575bb80b successfully announced in 6514.4294 ms (3b5ca34b)
+2025-07-11T21:04:51.4336666+02:00  [INF] Server desktop-af98uvh:23916:575bb80b is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-07-11T21:04:57.7943259+02:00  [INF] Server desktop-af98uvh:23916:575bb80b all the dispatchers started (3b5ca34b)
+2025-07-11T22:58:39.7349841+02:00  [INF] 1 servers were removed due to timeout (3b5ca34b)
+2025-07-11T23:08:25.5217749+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-07-11T23:08:25.5307468+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-07-11T23:08:25.5820979+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-07-11T23:08:25.5869798+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-07-11T23:08:25.8234128+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-07-11T23:08:25.8464401+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-07-11T23:08:25.8512896+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-07-11T23:08:26.1152478+02:00  [INF] Server desktop-af98uvh:3844:e38140e9 successfully announced in 313.4168 ms (3b5ca34b)
+2025-07-11T23:08:26.1325625+02:00  [INF] Server desktop-af98uvh:3844:e38140e9 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-07-11T23:08:26.8478408+02:00  [INF] Server desktop-af98uvh:3844:e38140e9 all the dispatchers started (3b5ca34b)

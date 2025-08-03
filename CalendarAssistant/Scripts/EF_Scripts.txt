@@ -1,0 +1,10 @@
+
+--For creating Identity tables migration
+Add-Migration InitialCreate
+Update-Database
+
+--For Scaffolding database tables:
+Scaffold-DbContext "Server=DESKTOP-AF98UVH;Database=CalendarAssistant;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+
+--modelBuilder.Entity<ScheduleModel>().HasNoKey();

@@ -1,0 +1,570 @@
+2025-05-04T10:39:06.8822903+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T10:39:06.8939190+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T10:39:07.0995945+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T10:39:07.1391548+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T10:39:09.6817652+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T10:39:09.7393520+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T10:39:09.8190949+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T10:39:10.7798014+02:00  [INF] Server desktop-af98uvh:2028:30d57717 successfully announced in 1038.7856 ms (3b5ca34b)
+2025-05-04T10:39:10.9372321+02:00  [INF] Server desktop-af98uvh:2028:30d57717 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T10:39:12.7592676+02:00  [INF] Server desktop-af98uvh:2028:30d57717 all the dispatchers started (3b5ca34b)
+2025-05-04T11:24:19.3913700+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T11:24:19.7153789+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T11:24:19.9872262+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T11:24:20.0005307+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T11:24:20.2351594+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T11:24:20.2475641+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T11:24:20.2547796+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T11:24:21.0250999+02:00  [INF] Server desktop-af98uvh:5988:fe1818f6 successfully announced in 781.8499 ms (3b5ca34b)
+2025-05-04T11:24:21.0676042+02:00  [INF] Server desktop-af98uvh:5988:fe1818f6 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T11:24:21.5181200+02:00  [INF] Server desktop-af98uvh:5988:fe1818f6 all the dispatchers started (3b5ca34b)
+2025-05-04T11:24:37.1651584+02:00 0HNCATLP5H0CH:00000009 [INF] Executed DbCommand ("284"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T11:24:47.2002848+02:00 0HNCATLP5H0CH:00000009 [INF] Executed DbCommand ("25"ms) [Parameters=["@__dayId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [w].[DayId], [w].[EndTime], [w].[Id], [w].[IsWorkingDay], [w].[StartTime], [w].[UserId]
+FROM [WorkingHour] AS [w]
+WHERE [w].[DayId] = @__dayId_0" (0723d8ff)
+2025-05-04T11:25:31.7896513+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T11:25:31.9135706+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T11:25:31.9459274+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T11:25:31.9666085+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T11:25:35.0529102+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T11:25:35.0930696+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T11:25:35.1199502+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T11:25:35.9157876+02:00  [INF] Server desktop-af98uvh:3292:8b5c8630 successfully announced in 1019.6419 ms (3b5ca34b)
+2025-05-04T11:25:35.9348560+02:00  [INF] Server desktop-af98uvh:3292:8b5c8630 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T11:25:36.4143618+02:00  [INF] Server desktop-af98uvh:3292:8b5c8630 all the dispatchers started (3b5ca34b)
+2025-05-04T11:25:51.5403144+02:00 0HNCATMEUOOIR:00000009 [INF] Executed DbCommand ("111"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T11:26:06.6226451+02:00 0HNCATMEUOOIR:00000009 [INF] Executed DbCommand ("16"ms) [Parameters=["@__dayId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [w].[DayId], [w].[EndTime], [w].[Id], [w].[IsWorkingDay], [w].[StartTime], [w].[UserId]
+FROM [WorkingHour] AS [w]
+WHERE [w].[DayId] = @__dayId_0" (0723d8ff)
+2025-05-04T11:26:54.6714620+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T11:26:54.6834481+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T11:26:54.9996724+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T11:26:55.0198483+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T11:26:56.3508410+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T11:26:56.3815132+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T11:26:56.3930660+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T11:26:56.9571303+02:00  [INF] Server desktop-af98uvh:5212:e22195ec successfully announced in 742.0006 ms (3b5ca34b)
+2025-05-04T11:26:57.0057822+02:00  [INF] Server desktop-af98uvh:5212:e22195ec is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T11:26:57.5298413+02:00  [INF] Server desktop-af98uvh:5212:e22195ec all the dispatchers started (3b5ca34b)
+2025-05-04T11:27:15.0633382+02:00 0HNCATN7OJ3KK:00000009 [INF] Executed DbCommand ("228"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T11:27:22.4984105+02:00 0HNCATN7OJ3KK:00000009 [INF] Executed DbCommand ("11"ms) [Parameters=["@__dayId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [w].[DayId], [w].[EndTime], [w].[Id], [w].[IsWorkingDay], [w].[StartTime], [w].[UserId]
+FROM [WorkingHour] AS [w]
+WHERE [w].[DayId] = @__dayId_0" (0723d8ff)
+2025-05-04T11:40:00.7202156+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T11:40:00.7349459+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T11:40:00.8209353+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T11:40:00.8290653+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T11:40:00.9065986+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T11:40:00.9123565+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T11:40:00.9161481+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T11:40:01.3458951+02:00  [INF] Server desktop-af98uvh:20208:d4f0248c successfully announced in 396.0847 ms (3b5ca34b)
+2025-05-04T11:40:01.6806221+02:00  [INF] Server desktop-af98uvh:20208:d4f0248c is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T11:40:02.6451178+02:00  [INF] Server desktop-af98uvh:20208:d4f0248c all the dispatchers started (3b5ca34b)
+2025-05-04T11:40:26.9146901+02:00 0HNCATUI1UP0A:00000001 [INF] Executed DbCommand ("187"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T11:40:48.6124247+02:00 0HNCATUI1UP0A:00000001 [INF] Executed DbCommand ("14"ms) [Parameters=["@__dayId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [w].[DayId], [w].[EndTime], [w].[Id], [w].[IsWorkingDay], [w].[StartTime], [w].[UserId]
+FROM [WorkingHour] AS [w]
+WHERE [w].[DayId] = @__dayId_0" (0723d8ff)
+2025-05-04T11:43:50.1806961+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T11:43:50.2498193+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T11:43:51.1547649+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T11:43:51.5383775+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T11:43:51.7472577+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T11:43:51.7526518+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T11:43:51.7638636+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T11:43:52.3199217+02:00  [INF] Server desktop-af98uvh:12864:635da20d successfully announced in 604.8906 ms (3b5ca34b)
+2025-05-04T11:43:52.3404506+02:00  [INF] Server desktop-af98uvh:12864:635da20d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T11:43:53.5441268+02:00  [INF] Server desktop-af98uvh:12864:635da20d all the dispatchers started (3b5ca34b)
+2025-05-04T11:44:11.3591674+02:00 0HNCAU0M96685:00000009 [INF] Executed DbCommand ("68"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T11:44:19.4206898+02:00 0HNCAU0M96685:00000009 [INF] Executed DbCommand ("9"ms) [Parameters=["@__dayId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [w].[DayId], [w].[EndTime], [w].[Id], [w].[IsWorkingDay], [w].[StartTime], [w].[UserId]
+FROM [WorkingHour] AS [w]
+WHERE [w].[DayId] = @__dayId_0" (0723d8ff)
+2025-05-04T11:55:05.4094306+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T11:55:05.4240396+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T11:55:05.6274153+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T11:55:05.6593600+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T11:55:06.8015103+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T11:55:06.8938869+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T11:55:06.9038683+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T11:55:07.4974723+02:00  [INF] Server desktop-af98uvh:6700:ca0e37ba successfully announced in 614.4398 ms (3b5ca34b)
+2025-05-04T11:55:07.5196213+02:00  [INF] Server desktop-af98uvh:6700:ca0e37ba is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T11:55:08.0498561+02:00  [INF] Server desktop-af98uvh:6700:ca0e37ba all the dispatchers started (3b5ca34b)
+2025-05-04T11:55:25.9985476+02:00 0HNCAU6VJU7PH:00000001 [INF] Executed DbCommand ("61"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T11:55:36.8895755+02:00 0HNCAU6VJU7PH:00000001 [INF] Executed DbCommand ("19"ms) [Parameters=["@__dayId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [w].[DayId], [w].[EndTime], [w].[Id], [w].[IsWorkingDay], [w].[StartTime], [w].[UserId]
+FROM [WorkingHour] AS [w]
+WHERE [w].[DayId] = @__dayId_0" (0723d8ff)
+2025-05-04T11:59:13.3281334+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T11:59:13.3394966+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T11:59:13.4018994+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T11:59:13.4062430+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T11:59:13.5481697+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T11:59:14.0139782+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T11:59:14.0929875+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T11:59:14.9083820+02:00  [INF] Server desktop-af98uvh:18984:51886e12 successfully announced in 1246.588 ms (3b5ca34b)
+2025-05-04T11:59:14.9264075+02:00  [INF] Server desktop-af98uvh:18984:51886e12 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T11:59:15.4623492+02:00  [INF] Server desktop-af98uvh:18984:51886e12 all the dispatchers started (3b5ca34b)
+2025-05-04T11:59:37.4497027+02:00 0HNCAU99ENBJF:00000001 [INF] Executed DbCommand ("95"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T11:59:45.6831539+02:00 0HNCAU99ENBJF:00000001 [INF] Executed DbCommand ("12"ms) [Parameters=["@__dayId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [w].[DayId], [w].[EndTime], [w].[Id], [w].[IsWorkingDay], [w].[StartTime], [w].[UserId]
+FROM [WorkingHour] AS [w]
+WHERE [w].[DayId] = @__dayId_0" (0723d8ff)
+2025-05-04T12:50:25.0882350+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T12:50:25.1209355+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T12:50:25.1813179+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T12:50:25.1856927+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T12:50:25.2744145+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T12:50:25.3095984+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T12:50:25.3150163+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T12:50:27.8008260+02:00  [INF] Server desktop-af98uvh:16132:190eb48a successfully announced in 2479.5516 ms (3b5ca34b)
+2025-05-04T12:50:27.9306790+02:00  [INF] Server desktop-af98uvh:16132:190eb48a is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T12:50:29.1450578+02:00  [INF] Server desktop-af98uvh:16132:190eb48a all the dispatchers started (3b5ca34b)
+2025-05-04T12:57:22.4835436+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T12:57:22.5784465+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T12:57:23.2516101+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T12:57:23.4734676+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T12:57:24.2057588+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T12:57:24.3942547+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T12:57:24.4222881+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T12:57:25.2164069+02:00  [INF] Server desktop-af98uvh:20656:e48a171f successfully announced in 950.8598 ms (3b5ca34b)
+2025-05-04T12:57:25.2445078+02:00  [INF] Server desktop-af98uvh:20656:e48a171f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T12:57:25.8553045+02:00  [INF] Server desktop-af98uvh:20656:e48a171f all the dispatchers started (3b5ca34b)
+2025-05-04T12:57:43.8058440+02:00 0HNCAV9PAOSI3:00000001 [INF] Executed DbCommand ("436"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T12:57:50.8750622+02:00 0HNCAV9PAOSI3:00000001 [INF] Executed DbCommand ("38"ms) [Parameters=["@__dayId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [w].[DayId], [w].[EndTime], [w].[Id], [w].[IsWorkingDay], [w].[StartTime], [w].[UserId]
+FROM [WorkingHour] AS [w]
+WHERE [w].[DayId] = @__dayId_0" (0723d8ff)
+2025-05-04T14:13:11.8155564+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T14:13:11.8600033+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T14:13:12.1147254+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T14:13:12.1386513+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T14:13:13.2046645+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T14:13:13.2372689+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T14:13:13.4431207+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T14:13:14.4710688+02:00  [INF] Server desktop-af98uvh:7900:eaa1d54c successfully announced in 1241.5511 ms (3b5ca34b)
+2025-05-04T14:13:14.5422074+02:00  [INF] Server desktop-af98uvh:7900:eaa1d54c is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T14:13:15.3784739+02:00  [INF] Server desktop-af98uvh:7900:eaa1d54c all the dispatchers started (3b5ca34b)
+2025-05-04T14:13:34.2182714+02:00 0HNCB0K55OVI5:00000001 [INF] Executed DbCommand ("329"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T14:13:42.2945145+02:00 0HNCB0K55OVI5:00000001 [INF] Executed DbCommand ("56"ms) [Parameters=["@__dayId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [w].[DayId], [w].[EndTime], [w].[Id], [w].[IsWorkingDay], [w].[StartTime], [w].[UserId]
+FROM [WorkingHour] AS [w]
+WHERE [w].[DayId] = @__dayId_0" (0723d8ff)
+2025-05-04T14:15:37.9669684+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T14:15:37.9772613+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T14:15:38.6785879+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T14:15:39.1349907+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T14:15:40.6294777+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T14:15:40.6567703+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T14:15:40.7058506+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T14:15:41.5107337+02:00  [INF] Server desktop-af98uvh:14736:791c1ddc successfully announced in 1212.0297 ms (3b5ca34b)
+2025-05-04T14:15:41.6810251+02:00  [INF] Server desktop-af98uvh:14736:791c1ddc is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T14:15:42.6462224+02:00  [INF] Server desktop-af98uvh:14736:791c1ddc all the dispatchers started (3b5ca34b)
+2025-05-04T14:16:03.3312929+02:00 0HNCB0LGS1USO:00000001 [INF] Executed DbCommand ("99"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T14:16:08.8671332+02:00 0HNCB0LGS1USO:00000001 [INF] Executed DbCommand ("23"ms) [Parameters=["@__dayId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [w].[DayId], [w].[EndTime], [w].[Id], [w].[IsWorkingDay], [w].[StartTime], [w].[UserId]
+FROM [WorkingHour] AS [w]
+WHERE [w].[DayId] = @__dayId_0" (0723d8ff)
+2025-05-04T14:17:22.2089091+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T14:17:22.2220802+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T14:17:22.3154268+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T14:17:22.3854641+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T14:17:23.1826067+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T14:17:23.7158737+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T14:17:23.8297424+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T14:17:24.2233832+02:00  [INF] Server desktop-af98uvh:10772:6ecec8ce successfully announced in 382.7748 ms (3b5ca34b)
+2025-05-04T14:17:24.2757651+02:00  [INF] Server desktop-af98uvh:10772:6ecec8ce is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T14:17:24.7033364+02:00  [INF] Server desktop-af98uvh:10772:6ecec8ce all the dispatchers started (3b5ca34b)
+2025-05-04T14:17:40.5495898+02:00 0HNCB0MFNFBMB:00000009 [INF] Executed DbCommand ("131"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T14:17:46.7564108+02:00 0HNCB0MFNFBMB:00000009 [INF] Executed DbCommand ("14"ms) [Parameters=["@__dayId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [w].[DayId], [w].[EndTime], [w].[Id], [w].[IsWorkingDay], [w].[StartTime], [w].[UserId]
+FROM [WorkingHour] AS [w]
+WHERE [w].[DayId] = @__dayId_0" (0723d8ff)
+2025-05-04T14:33:40.7451595+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T14:33:40.8067804+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T14:33:40.9411953+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T14:33:40.9606893+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T14:33:41.6928959+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T14:33:41.7029854+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T14:33:41.7151496+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T14:33:42.4094039+02:00  [INF] Server desktop-af98uvh:15224:9fffc761 successfully announced in 717.4647 ms (3b5ca34b)
+2025-05-04T14:33:42.4338961+02:00  [INF] Server desktop-af98uvh:15224:9fffc761 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T14:33:44.0769374+02:00  [INF] Server desktop-af98uvh:15224:9fffc761 all the dispatchers started (3b5ca34b)
+2025-05-04T14:34:59.0730042+02:00 0HNCB0VJAGGN8:00000001 [INF] Executed DbCommand ("2,116"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T14:36:09.4703678+02:00 0HNCB0VJAGGN8:00000001 [INF] Executed DbCommand ("13"ms) [Parameters=["@__dayId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [w].[DayId], [w].[EndTime], [w].[Id], [w].[IsWorkingDay], [w].[StartTime], [w].[UserId]
+FROM [WorkingHour] AS [w]
+WHERE [w].[DayId] = @__dayId_0" (0723d8ff)
+2025-05-04T14:45:53.7721834+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T14:45:53.7854852+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T14:45:53.8508416+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T14:45:53.9918493+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T14:45:54.3680529+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T14:45:54.3724445+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T14:45:54.3749050+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T14:45:54.8450138+02:00  [INF] Server desktop-af98uvh:5096:e5f8e790 successfully announced in 470.6354 ms (3b5ca34b)
+2025-05-04T14:45:54.8755721+02:00  [INF] Server desktop-af98uvh:5096:e5f8e790 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T14:45:55.1529344+02:00  [INF] Server desktop-af98uvh:5096:e5f8e790 all the dispatchers started (3b5ca34b)
+2025-05-04T14:46:15.4198386+02:00 0HNCB16DP92FD:00000009 [INF] Executed DbCommand ("108"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T14:52:16.7799874+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T14:52:16.8017399+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T14:52:17.4017676+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T14:52:17.4311560+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T14:52:17.7735544+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T14:52:17.8131959+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T14:52:17.8718291+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T14:52:19.0029462+02:00  [INF] Server desktop-af98uvh:8644:765e47f8 successfully announced in 1228.2151 ms (3b5ca34b)
+2025-05-04T14:52:19.0506107+02:00  [INF] Server desktop-af98uvh:8644:765e47f8 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T14:52:19.8022090+02:00  [INF] Server desktop-af98uvh:8644:765e47f8 all the dispatchers started (3b5ca34b)
+2025-05-04T14:52:43.9971751+02:00 0HNCB19VTJ6ID:00000001 [INF] Executed DbCommand ("220"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T14:58:29.9842607+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T14:58:29.9947566+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T14:58:30.0455139+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T14:58:30.0492659+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T14:58:30.1231715+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T14:58:30.1264819+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T14:58:30.1291855+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T14:58:31.3605671+02:00  [INF] Server desktop-af98uvh:4380:540914f5 successfully announced in 1227.0515 ms (3b5ca34b)
+2025-05-04T14:58:31.3784059+02:00  [INF] Server desktop-af98uvh:4380:540914f5 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T14:58:31.6259718+02:00  [INF] Server desktop-af98uvh:4380:540914f5 all the dispatchers started (3b5ca34b)
+2025-05-04T14:58:46.3789044+02:00 0HNCB1DF6OSJT:00000009 [INF] Executed DbCommand ("104"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T15:06:10.6926773+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T15:06:10.6984724+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T15:06:10.7409553+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T15:06:10.7437950+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T15:06:10.8081084+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T15:06:10.8127246+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T15:06:10.8152647+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T15:06:10.9952846+02:00  [INF] Server desktop-af98uvh:11160:9ac99f75 successfully announced in 180.0792 ms (3b5ca34b)
+2025-05-04T15:06:11.0053867+02:00  [INF] Server desktop-af98uvh:11160:9ac99f75 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T15:06:12.3296292+02:00  [INF] Server desktop-af98uvh:11160:9ac99f75 all the dispatchers started (3b5ca34b)
+2025-05-04T15:06:45.2829189+02:00 0HNCB1HOIQLLU:00000009 [INF] Executed DbCommand ("180"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T15:10:05.1104168+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T15:10:05.2262144+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T15:10:05.3228800+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T15:10:05.3271521+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T15:10:07.0539440+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T15:10:07.0869624+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T15:10:07.1026436+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T15:10:07.6616256+02:00  [INF] Server desktop-af98uvh:7144:70325f4d successfully announced in 659.3429 ms (3b5ca34b)
+2025-05-04T15:10:07.6793176+02:00  [INF] Server desktop-af98uvh:7144:70325f4d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T15:10:08.3508351+02:00  [INF] Server desktop-af98uvh:7144:70325f4d all the dispatchers started (3b5ca34b)
+2025-05-04T15:10:31.0793806+02:00 0HNCB1JUSG9KH:00000009 [INF] Executed DbCommand ("380"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T15:12:44.0519504+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T15:12:44.2052170+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T15:12:44.8410020+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T15:12:44.8667585+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T15:12:45.5340448+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T15:12:45.6763790+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T15:12:45.7028357+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T15:12:46.6162918+02:00  [INF] Server desktop-af98uvh:3592:2a7e7ba8 successfully announced in 930.2783 ms (3b5ca34b)
+2025-05-04T15:12:46.6877120+02:00  [INF] Server desktop-af98uvh:3592:2a7e7ba8 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T15:12:47.9105815+02:00  [INF] Server desktop-af98uvh:3592:2a7e7ba8 all the dispatchers started (3b5ca34b)
+2025-05-04T15:13:29.7766457+02:00 0HNCB1LDL7FJU:00000001 [INF] Executed DbCommand ("372"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T15:31:17.6652871+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T15:31:17.6804645+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T15:31:17.7342321+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T15:31:17.7382709+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T15:31:17.9604438+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T15:31:17.9652265+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T15:31:17.9680768+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T15:31:19.0050297+02:00  [INF] Server desktop-af98uvh:17024:b2c4c7c6 successfully announced in 990.4639 ms (3b5ca34b)
+2025-05-04T15:31:19.5593221+02:00  [INF] Server desktop-af98uvh:17024:b2c4c7c6 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T15:31:21.5526929+02:00  [INF] Server desktop-af98uvh:17024:b2c4c7c6 all the dispatchers started (3b5ca34b)
+2025-05-04T15:31:39.8678072+02:00 0HNCB1VPM72FA:00000001 [INF] Executed DbCommand ("97"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T15:32:49.3996758+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T15:32:49.4113904+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T15:32:49.4604984+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T15:32:49.4637544+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T15:32:49.5401366+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T15:32:49.5503962+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T15:32:49.5531110+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T15:32:50.0282045+02:00  [INF] Server desktop-af98uvh:8276:62e2c6ee successfully announced in 447.36 ms (3b5ca34b)
+2025-05-04T15:32:50.1113401+02:00  [INF] Server desktop-af98uvh:8276:62e2c6ee is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T15:32:51.0257620+02:00  [INF] Server desktop-af98uvh:8276:62e2c6ee all the dispatchers started (3b5ca34b)
+2025-05-04T15:33:21.0444636+02:00 0HNCB20L14AVM:00000007 [INF] Executed DbCommand ("102"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T21:53:20.2554833+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T21:53:20.2778478+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T21:53:20.6656518+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T21:53:20.6773916+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T21:53:20.8419005+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T21:53:20.8475169+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T21:53:20.8527414+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T21:53:21.2709807+02:00  [INF] Server desktop-af98uvh:17448:ec7ef8d2 successfully announced in 494.1737 ms (3b5ca34b)
+2025-05-04T21:53:21.2898059+02:00  [INF] Server desktop-af98uvh:17448:ec7ef8d2 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T21:53:21.7368193+02:00  [INF] Server desktop-af98uvh:17448:ec7ef8d2 all the dispatchers started (3b5ca34b)
+2025-05-04T21:53:39.2612454+02:00 0HNCB8L90OCPJ:00000001 [INF] Executed DbCommand ("204"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T21:55:09.0464091+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T21:55:09.0583870+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T21:55:09.1323623+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T21:55:09.1366810+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T21:55:09.6009979+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T21:55:09.7849688+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T21:55:09.8173150+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T21:55:10.1927275+02:00  [INF] Server desktop-af98uvh:16208:0737728d successfully announced in 807.6068 ms (3b5ca34b)
+2025-05-04T21:55:10.2913140+02:00  [INF] Server desktop-af98uvh:16208:0737728d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T21:55:10.9318763+02:00  [INF] Server desktop-af98uvh:16208:0737728d all the dispatchers started (3b5ca34b)
+2025-05-04T21:55:32.4319094+02:00 0HNCB8M9GEE45:00000009 [INF] Executed DbCommand ("143"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T21:56:46.4743116+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T21:56:46.5168287+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T21:56:46.6013630+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T21:56:46.6233508+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T21:56:47.4473673+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T21:56:47.4527198+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T21:56:47.4659487+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T21:56:47.7117776+02:00  [INF] Server desktop-af98uvh:15080:e990d2a6 successfully announced in 473.1674 ms (3b5ca34b)
+2025-05-04T21:56:47.7272457+02:00  [INF] Server desktop-af98uvh:15080:e990d2a6 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T21:56:47.9355109+02:00  [INF] Server desktop-af98uvh:15080:e990d2a6 all the dispatchers started (3b5ca34b)
+2025-05-04T21:57:01.1350979+02:00 0HNCB8N6IBN86:00000009 [INF] Executed DbCommand ("70"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T22:02:05.4178359+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T22:02:05.4941942+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T22:02:05.6629336+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T22:02:05.6704419+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T22:02:05.8741261+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T22:02:05.8787735+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T22:02:05.8958064+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T22:02:06.5977158+02:00  [INF] Server desktop-af98uvh:15912:0937abc0 successfully announced in 675.6858 ms (3b5ca34b)
+2025-05-04T22:02:06.6668774+02:00  [INF] Server desktop-af98uvh:15912:0937abc0 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T22:02:07.4000095+02:00  [INF] Server desktop-af98uvh:15912:0937abc0 all the dispatchers started (3b5ca34b)
+2025-05-04T22:02:20.3302986+02:00 0HNCB8Q5K4F3P:00000001 [INF] Executed DbCommand ("182"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T22:05:22.7025494+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T22:05:22.7551614+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T22:05:23.3341038+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T22:05:23.3496311+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T22:05:23.4624601+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T22:05:23.4814785+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T22:05:23.4974280+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T22:05:23.7643042+02:00  [INF] Server desktop-af98uvh:16320:128e4741 successfully announced in 318.4026 ms (3b5ca34b)
+2025-05-04T22:05:23.8269477+02:00  [INF] Server desktop-af98uvh:16320:128e4741 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T22:05:24.0949075+02:00  [INF] Server desktop-af98uvh:16320:128e4741 all the dispatchers started (3b5ca34b)
+2025-05-04T22:06:06.2033041+02:00 0HNCB8S0ADL4U:00000001 [INF] Executed DbCommand ("127"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
+2025-05-04T22:16:02.2488784+02:00  [INF] Now listening on: "https://localhost:7009" (d826f4b8)
+2025-05-04T22:16:02.2587848+02:00  [INF] Now listening on: "http://localhost:5206" (d826f4b8)
+2025-05-04T22:16:02.3282964+02:00  [INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage' (3b5ca34b)
+2025-05-04T22:16:02.3430792+02:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2025-05-04T22:16:02.4628018+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-05-04T22:16:02.4746406+02:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-05-04T22:16:02.4786654+02:00  [INF] Content root path: "C:\Users\harri\source\repos\CalendarAssistant\CalendarAssistant" (cc26f24e)
+2025-05-04T22:16:02.6976615+02:00  [INF] Server desktop-af98uvh:6636:3a93c26a successfully announced in 229.0074 ms (3b5ca34b)
+2025-05-04T22:16:02.7287729+02:00  [INF] Server desktop-af98uvh:6636:3a93c26a is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2025-05-04T22:16:03.5232564+02:00  [INF] Server desktop-af98uvh:6636:3a93c26a all the dispatchers started (3b5ca34b)
+2025-05-04T22:16:25.2727182+02:00 0HNCB91V0QBDT:00000001 [INF] Executed DbCommand ("408"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[CreatedAt], [p].[Id], [p].[ModifiedAt], [p].[SyncDateTime], [p].[UserId]
+FROM [PollingSync] AS [p]
+WHERE [p].[UserId] = @__userId_0
+ORDER BY [p].[Id] DESC" (0723d8ff)
