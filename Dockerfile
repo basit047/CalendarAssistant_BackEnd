@@ -1,5 +1,5 @@
-# Use the official .NET SDK image for building the app (targeting .NET 6.0)
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+# Use the official .NET SDK image for building the app (targeting .NET 7.0)
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /app
 
 # Copy the project file from the subfolder (CalendarAssistant/CalendarAssistant.csproj)
@@ -14,8 +14,8 @@ COPY . ./
 # Publish the application to the 'out' directory in Release mode
 RUN dotnet publish CalendarAssistant/CalendarAssistant.csproj -c Release -o /app/out
 
-# Build the runtime image (using .NET 6.0 runtime image)
-FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS runtime
+# Build the runtime image (using .NET 7.0 runtime image)
+FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS runtime
 WORKDIR /app
 
 # Copy the published app from the build stage
