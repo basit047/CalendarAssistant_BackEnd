@@ -180,6 +180,7 @@ namespace CalendarAssistant.Services
             var credential = GoogleCredential.FromAccessToken(accessToken);
             string classifierUrl = _configuration["ClassifierURL"]!;
             string ollamaUrl = _configuration["OllamaURL"]!;
+            Console.WriteLine($"ollamaUrl: {ollamaUrl}");
             string userEmail = await ValidateIdTokenReturnEmail(idToken);
 
             Console.WriteLine("After ValidateIdTokenReturnEmail...");
