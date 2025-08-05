@@ -182,6 +182,7 @@ namespace CalendarAssistant.Services
             string ollamaUrl = _configuration["OllamaURL"]!;
             string userEmail = await ValidateIdTokenReturnEmail(idToken);
 
+            Console.WriteLine("After ValidateIdTokenReturnEmail...");
 
             List<LabelView>? filteredLabels = new List<LabelView>();
             string filters = "";
@@ -207,11 +208,19 @@ namespace CalendarAssistant.Services
             request.Q = filters;
             var response = request.Execute();
 
+            Console.WriteLine("After Execute...");
+
             if (response?.Messages != null)
             {
+                Console.WriteLine("Inside response...");
+
                 var filteredMessage = response?.Messages.Take(5);
+
+                
                 foreach (var message in filteredMessage)
                 {
+
+                    Console.WriteLine("Inside filteredMessage...");
                     var msg = service.Users.Messages.Get("me", message.Id).Execute();
 
                     // To extract recipient FROM

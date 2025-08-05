@@ -412,9 +412,10 @@ namespace CalendarAssistant.Services
                 return userInfo;
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                throw;
+                Console.WriteLine($"Error Message: {ex.Message}");
+                throw ex;
             }
         }
 
