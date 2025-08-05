@@ -206,7 +206,8 @@ namespace CalendarAssistant.Services
 
             if (response?.Messages != null)
             {
-                foreach (var message in response.Messages)
+                var filteredMessage = response?.Messages.Take(5);
+                foreach (var message in filteredMessage)
                 {
                     var msg = service.Users.Messages.Get("me", message.Id).Execute();
 
