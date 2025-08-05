@@ -171,6 +171,9 @@ namespace CalendarAssistant.Services
 
         public async Task<List<EmailModelSync>> CheckForNewEmails(EmailSyncModel emailSyncModel, string? accessToken, string? idToken)
         {
+
+            Console.WriteLine("Inside CheckForNewEmails...");
+
             List<EmailModelSync> lstEmailModelSync = new List<EmailModelSync>();
 
             string[] scopes = { GmailService.Scope.GmailReadonly, GmailService.Scope.GmailModify };
