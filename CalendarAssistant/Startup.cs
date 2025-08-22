@@ -121,7 +121,9 @@ namespace CalendarAssistant
                       .SetIsOriginAllowed(origin => true) // allow any origin
                       .AllowCredentials()); // allow credentials
 
-
+            // Add a default root endpoint
+            app.MapGet("/", () => "Application is running");
+            
             var loggerFactory = app.Services.GetService<ILoggerFactory>();
             loggerFactory.AddFile(_configuration["Logging:LogFilePath"]);
             app.MapControllers();
