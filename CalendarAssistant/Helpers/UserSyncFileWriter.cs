@@ -53,6 +53,7 @@ namespace CalendarAssistant.Helpers
 
             // Update the user's data
             user.SyncDateTime = DateTime.UtcNow;
+            users.FirstOrDefault(u => u.Email == email).SyncDateTime = DateTime.UtcNow;
 
             // Serialize and write back to file
             string updatedJson = JsonSerializer.Serialize(users, new JsonSerializerOptions { WriteIndented = true });
