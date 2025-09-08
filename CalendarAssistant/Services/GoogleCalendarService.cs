@@ -91,12 +91,15 @@ namespace CalendarAssistant.Services
 
         public async Task<bool> Schedule(CalendarEvent calendarEvent, CancellationToken cancellationToken)
         {
+            Console.WriteLine("Inside Schedule Method");
             bool isEventScheduled = true;
             try
             {
+                Console.WriteLine("Inside Try");
                 var calendarService = await GetCalendarService(cancellationToken);
                 if (calendarService != null)
                 {
+                    Console.WriteLine("Inside ...");
                     var newEvent = CreateEvent(calendarEvent);
 
                     var eventRequest = calendarService.Events.Insert(newEvent, _settings.CalendarId);
@@ -107,7 +110,8 @@ namespace CalendarAssistant.Services
             }
             catch (Exception ex)
             {
-            Console.WriteLine(ex.Message);
+                Console.WriteLine("Error Occurred");
+                Console.WriteLine(ex.Message);
                 isEventScheduled = false;
             }
 
