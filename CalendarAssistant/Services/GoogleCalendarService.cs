@@ -98,6 +98,12 @@ namespace CalendarAssistant.Services
             {
                  Console.WriteLine("Inside Try");
                 Console.Write("cancellationToken");
+                Console.WriteLine(calendarEvent.EndTime);
+                    Console.WriteLine(calendarEvent.StartTime);
+                    Console.WriteLine(calendarEvent.Summary);
+                    Console.WriteLine(calendarEvent.Location);
+                    Console.WriteLine(calendarEvent.Description);
+                    
                 
              var credentialg = GoogleCredential.FromAccessToken(accessToken);
                 var services = new CalendarService(new BaseClientService.Initializer
@@ -462,7 +468,7 @@ namespace CalendarAssistant.Services
                 GmailService.Scope.GmailReadonly,
                 GmailService.Scope.GmailSend,
                 CalendarService.Scope.Calendar,
-                //CalendarService.Scope.CalendarReadonly,
+                CalendarService.Scope.CalendarReadonly,
                 "openid", "email", "profile"
             }
             });
