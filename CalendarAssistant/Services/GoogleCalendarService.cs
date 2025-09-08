@@ -105,8 +105,9 @@ namespace CalendarAssistant.Services
                 }
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+            Console.WriteLine(ex.Message);
                 isEventScheduled = false;
             }
 
