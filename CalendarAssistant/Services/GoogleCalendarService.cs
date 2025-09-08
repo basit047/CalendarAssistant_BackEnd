@@ -89,26 +89,32 @@ namespace CalendarAssistant.Services
         }
 
 
-        public async Task<bool> Schedule(CalendarEvent calendarEvent, CancellationToken cancellationToken)
+        public async Task<bool> Schedule(CalendarEvent calendarEvent, string accessToken)
         {
             Console.WriteLine("Inside Schedule Method");
             bool isEventScheduled = true;
+            
             try
             {
-                Console.WriteLine("Inside Try");
+                 Console.WriteLine("Inside Try");
                 Console.Write("cancellationToken");
                 Console.WriteLine(cancellationToken);
-                var calendarService = await GetCalendarService(cancellationToken);
-                if (calendarService != null)
+             var credentialg = GoogleCredential.FromAccessToken(accessToken);
+                var services = new CalendarService(new BaseClientService.Initializer
                 {
-                    Console.WriteLine("Inside ...");
+                    HttpClientInitializer = credentialg,
+                    ApplicationName = _configuration["ProjectName"]
+                });
+
+                
+                if (services != null)
+                {
                     var newEvent = CreateEvent(calendarEvent);
 
-                    var eventRequest = calendarService.Events.Insert(newEvent, _settings.CalendarId);
-                    var requestCreate = await eventRequest.ExecuteAsync(cancellationToken);
+                    var eventRequest = services.Events.Insert(newEvent, _settings.CalendarId);
+                    var requestCreate = await eventRequest.ExecuteAsync();
                     bool isSaveEnable = Convert.ToBoolean(_configuration["isSaveEnabled"]);
                 }
-
             }
             catch (Exception ex)
             {
