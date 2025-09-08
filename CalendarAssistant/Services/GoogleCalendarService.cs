@@ -98,7 +98,7 @@ namespace CalendarAssistant.Services
             {
                  Console.WriteLine("Inside Try");
                 Console.Write("cancellationToken");
-                Console.WriteLine(cancellationToken);
+                
              var credentialg = GoogleCredential.FromAccessToken(accessToken);
                 var services = new CalendarService(new BaseClientService.Initializer
                 {
