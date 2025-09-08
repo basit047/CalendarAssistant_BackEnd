@@ -335,12 +335,12 @@ namespace CalendarAssistant.Services
                 Start = new EventDateTime()
                 {
                     DateTimeDateTimeOffset = calendarEvent.StartTime,
-                    TimeZone = TimeZoneInfo.Utc.DisplayName
+                    TimeZone = "Europe/Berlin"
                 },
                 End = new EventDateTime()
                 {
                     DateTimeDateTimeOffset = calendarEvent.EndTime,
-                    TimeZone = TimeZoneInfo.Utc.DisplayName
+                    TimeZone = "Europe/Berlin"
                 },
                 Recurrence = new String[] { "RRULE:FREQ=DAILY;COUNT=1" },
                 Reminders = new Event.RemindersData()
