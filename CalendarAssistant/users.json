@@ -16,5 +16,14 @@
     "ModifiedAt": null,
     "StartTime": "08:30:00",
     "EndTime": "17:30:00"
+  },
+  {
+    "Id": 2,
+    "SyncDateTime": "2025-09-08T13:16:01.408466Z",
+    "Email": "ivan@yamshchikov.info",
+    "CreatedAt": "2025-09-08T13:16:01.408466Z",
+    "ModifiedAt": null,
+    "StartTime": "08:30:00",
+    "EndTime": "17:30:00"
   }
 ]
