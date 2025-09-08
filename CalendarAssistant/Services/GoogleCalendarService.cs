@@ -96,6 +96,8 @@ namespace CalendarAssistant.Services
             try
             {
                 Console.WriteLine("Inside Try");
+                Console.Write("cancellationToken");
+                Console.WriteLine(cancellationToken);
                 var calendarService = await GetCalendarService(cancellationToken);
                 if (calendarService != null)
                 {
