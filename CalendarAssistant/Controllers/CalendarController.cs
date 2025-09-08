@@ -77,7 +77,9 @@ namespace CalendarAssistant.Controllers
         {
             try
             {
-                bool isEventCreated = await _googleCalendarService.Schedule(calendarEvent, cancellationToken);
+               var accessToken = Request.Headers["Access_token"].FirstOrDefault();
+                bool isEventCreated = await _googleCalendarService.Schedule(calendarEvent, accessToken);
+              
                 if (isEventCreated)
                     return Ok(new Response { Status = "Success", Message = "Event created successfully!" });
                 else
