@@ -6,7 +6,7 @@ namespace CalendarAssistant.Services
     public interface IGoogleCalendarService
     {
         Task<List<EventListView>> GetAllEvents(string accessToken);
-        Task<bool> Schedule(CalendarEvent calendarEvent, CancellationToken cancellationToken);
+        Task<bool> Schedule(CalendarEvent calendarEvent, string? accessToken);
         Task<bool> Cancel(string eventId, CancellationToken cancellationToken);
         Task<bool> Reschedule(UpdateEvent updateEvent, string accessToken);
         Task<Event> GetEventById(string eventId, string accessToken);
